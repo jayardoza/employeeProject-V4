@@ -19,8 +19,8 @@ public class TestMain {
         Employee employee2 = new HourlyEmployee(2, empName2, dateFormat.parse("2023-02-10"), dateFormat.parse("1985-08-15"), 43, 65);
         Employee employee3 = new BasePlusCommissionEmployee(3, empName3, dateFormat.parse("2023-01-15"), dateFormat.parse("1991-06-21"), 55000, 5000);
         Employee employee4 = new BasePlusCommissionEmployee(4, empName4, dateFormat.parse("2023-02-10"), dateFormat.parse("1986-09-16"), 45000, 3000);
-        Employee employee5 = new PieceWorkerEmployee(5, empName5, dateFormat.parse("2023-03-05"), dateFormat.parse("1992-11-10"), 150, 2.50);
-        Employee employee6 = new PieceWorkerEmployee(6, empName6, dateFormat.parse("2023-04-20"), dateFormat.parse("1993-07-15"), 200, 3.00);
+        Employee employee5 = new PieceWorkerEmployee(5, empName5, dateFormat.parse("2023-03-05"), dateFormat.parse("1992-11-10"), 150, 65.50);
+        Employee employee6 = new PieceWorkerEmployee(6, empName6, dateFormat.parse("2023-04-20"), dateFormat.parse("1993-07-15"), 200, 50.00);
 
         EmployeeRoster roster = new EmployeeRoster();
 
