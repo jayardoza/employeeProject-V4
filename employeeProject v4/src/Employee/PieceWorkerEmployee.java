@@ -5,16 +5,15 @@ import java.util.Date;
 public class PieceWorkerEmployee extends Employee {
     private final int totalPiecesFinished;
     private final double ratePerPiece;
-    private int TotalPiecesFinished;
 
     public PieceWorkerEmployee(int empID, Name empName, Date empDateHired, Date empBirthDate, int totalPiecesFinished, double ratePerPiece) {
-        super(empID, empName, empDateHired, empBirthDate); // Set employee type
+        super(empID, empName, empDateHired, empBirthDate); 
         this.totalPiecesFinished = totalPiecesFinished;
         this.ratePerPiece = ratePerPiece;
     }
 
     public int getTotalPiecesFinished() {
-        return TotalPiecesFinished;
+        return totalPiecesFinished;
     }
     @Override
     public double computeSalary() {
