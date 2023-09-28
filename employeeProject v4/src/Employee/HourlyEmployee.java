@@ -7,7 +7,7 @@ public class HourlyEmployee extends Employee {
     private final double ratePerHour;
 
     public HourlyEmployee(int empID, Name empName, Date empDateHired, Date empBirthDate, double totalHoursWorked, double ratePerHour) {
-        super(empID, empName, empDateHired, empBirthDate); // Set employee type
+        super(empID, empName, empDateHired, empBirthDate);
         this.totalHoursWorked = totalHoursWorked;
         this.ratePerHour = ratePerHour;
     }
